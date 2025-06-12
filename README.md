@@ -14,7 +14,3 @@
 | sentiment | int | 情感标签（1=正面，0=负面） |
 | time | string | 评论时间 |
 
-## 使用示例
-```python
-import pandas as pd
-df = pd.read_csv("movie_reviews_dataset.csv")

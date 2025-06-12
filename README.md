@@ -1,1 +1,20 @@
 # family-movie-reviews-dataset
+# 家庭题材电影评论情感分析数据集
+
+## 数据集信息
+- **来源**：豆瓣电影评论（秋日奏鸣曲、秋日和、饮食男女、一一、步履不停）
+- **数量**：1,238条评论
+- **时间范围**：2005-2025年
+
+## 字段说明
+| 字段名 | 类型 | 描述 |
+|--------|------|------|
+| movie | string | 电影名称 |
+| content | string | 评论内容（中文） |
+| sentiment | int | 情感标签（1=正面，0=负面） |
+| time | string | 评论时间 |
+
+## 使用示例
+```python
+import pandas as pd
+df = pd.read_csv("movie_reviews_dataset.csv")
